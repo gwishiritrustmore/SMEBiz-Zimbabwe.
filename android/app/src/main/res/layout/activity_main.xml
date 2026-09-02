@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <!-- Header with app branding -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary_dark_green"
+        android:orientation="vertical"
+        android:padding="@dimen/spacing_md">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            style="@style/TextAppearance.SMEBiz.Heading"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_tagline"
+            android:textColor="@color/accent_gold"
+            android:textSize="@dimen/text_size_sm"
+            android:layout_marginTop="@dimen/spacing_xs" />
+    </LinearLayout>
+
+    <!-- Main Navigation Grid -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="2"
+        android:rowCount="5"
+        android:padding="@dimen/spacing_md"
+        android:layout_marginTop="@dimen/spacing_md"
+        android:layout_margin="@dimen/spacing_sm">
+
+        <!-- Dashboard Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/dashboard_btn"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/touch_target_size"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_margin="@dimen/spacing_sm"
+            android:text="@string/dashboard"
+            app:icon="@android:drawable/ic_menu_agenda" />
+
+        <!-- Products Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/products_btn"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/touch_target_size"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="@dimen/spacing_sm"
+            android:text="@string/products_services"
+            app:icon="@android:drawable/ic_menu_view" />
+
+        <!-- Sales Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/sales_btn"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/touch_target_size"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_margin="@dimen/spacing_sm"
+            android:text="@string/sales"
+            app:icon="@android:drawable/ic_menu_search" />
+
+        <!-- Expenses Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/expenses_btn"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/touch_target_size"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="@dimen/spacing_sm"
+            android:text="@string/expenses"
+            app:icon="@android:drawable/ic_menu_save" />
+
+        <!-- Settings Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/settings_btn"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/touch_target_size"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_margin="@dimen/spacing_sm"
+            android:text="@string/settings"
+            app:icon="@android:drawable/ic_menu_preferences" />
+
+    </GridLayout>
+
+</LinearLayout>

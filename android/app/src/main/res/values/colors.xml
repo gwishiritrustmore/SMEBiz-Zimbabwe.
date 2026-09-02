@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- SMEBiz Primary Branding - Dark Green -->
+    <color name="primary_dark_green">#1B5E20</color>
+    <color name="primary_green">#2E7D32</color>
+    <color name="primary_light_green">#4CAF50</color>
+    
+    <!-- Gold Accents -->
+    <color name="accent_gold">#FFD700</color>
+    <color name="accent_gold_dark">#FFC700</color>
+    
+    <!-- Neutral Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="light_gray">#F5F5F5</color>
+    <color name="medium_gray">#E0E0E0</color>
+    <color name="dark_gray">#424242</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    
+    <!-- Status Colors -->
+    <color name="success_green">#4CAF50</color>
+    <color name="error_red">#F44336</color>
+    <color name="warning_orange">#FF9800</color>
+    <color name="info_blue">#2196F3</color>
+    
+    <!-- Background -->
+    <color name="background">#FAFAFA</color>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.smebiz.zimbabwe">
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="false"
+        android:theme="@style/Theme.SMEBizZimbabwe">
+
+        <!-- Main Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SMEBizZimbabwe">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Dashboard Activity -->
+        <activity
+            android:name=".ui.dashboard.DashboardActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:label="@string/dashboard" />
+
+        <!-- Products Activity -->
+        <activity
+            android:name=".ui.products.ProductsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:label="@string/products_services" />
+
+        <!-- Sales Activity -->
+        <activity
+            android:name=".ui.sales.SalesActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:label="@string/sales" />
+
+        <!-- Expenses Activity -->
+        <activity
+            android:name=".ui.expenses.ExpensesActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:label="@string/expenses" />
+
+        <!-- Settings Activity -->
+        <activity
+            android:name=".ui.settings.SettingsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:label="@string/settings" />
+
+    </application>
+
+</manifest>

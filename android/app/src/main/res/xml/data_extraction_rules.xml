@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <!-- Database files -->
+    <domain-config>
+        <domain name="database">
+            <path>smebiz_zimbabwe.db</path>
+        </domain>
+    </domain-config>
+</data-extraction-rules>

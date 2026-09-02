@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Simple SMEBiz themed background -->
+    <path
+        android:fillColor="@color/primary_dark_green"
+        android:pathData="M0,0h108v108h-108z" />
+    
+    <!-- Gold accent circle -->
+    <circle
+        android:cx="54"
+        android:cy="54"
+        android:r="48"
+        android:fillColor="@color/accent_gold" />
+    
+    <!-- Center circle with green -->
+    <circle
+        android:cx="54"
+        android:cy="54"
+        android:r="42"
+        android:fillColor="@color/primary_dark_green" />
+</vector>

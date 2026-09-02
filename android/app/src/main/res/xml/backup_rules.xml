@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Database files are backed up by default -->
+    <include domain="database" path="." />
+    <!-- Preferences are backed up by default -->
+    <include domain="sharedpref" path="." />
+</full-backup-content>

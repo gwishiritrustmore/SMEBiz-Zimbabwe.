@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SMEBiz Zimbabwe</string>
+    <string name="app_tagline">Simple Business. Better Records. Smarter Decisions.</string>
+    
+    <!-- Main Navigation -->
+    <string name="dashboard">Dashboard</string>
+    <string name="products_services">Products &amp; Services</string>
+    <string name="sales">Sales</string>
+    <string name="expenses">Expenses</string>
+    <string name="cash">Cash</string>
+    <string name="mobile_money">Mobile Money</string>
+    <string name="bank">Bank</string>
+    <string name="basic_reports">Reports</string>
+    <string name="settings">Settings</string>
+    
+    <!-- Dashboard Labels -->
+    <string name="today_s_sales">Today\'s Sales</string>
+    <string name="today_s_expenses">Today\'s Expenses</string>
+    <string name="cash_balance">Cash Balance</string>
+    <string name="mobile_money_balance">Mobile Money Balance</string>
+    <string name="bank_balance">Bank Balance</string>
+    <string name="stock_value">Stock Value</string>
+    <string name="customers_owing">Customers Owing</string>
+    <string name="suppliers_owed">Suppliers Owed</string>
+    <string name="low_stock_alerts">Low Stock Alerts</string>
+    
+    <!-- Product Fields -->
+    <string name="product_name">Product/Service Name</string>
+    <string name="product_code">Product Code</string>
+    <string name="category">Category</string>
+    <string name="goods_or_service">Goods or Service</string>
+    <string name="buying_price">Buying Price</string>
+    <string name="selling_price">Selling Price</string>
+    <string name="unit">Unit</string>
+    <string name="opening_stock">Opening Stock</string>
+    <string name="reorder_level">Reorder Level</string>
+    <string name="active">Active</string>
+    
+    <!-- Sales Fields -->
+    <string name="quantity">Quantity</string>
+    <string name="discount">Discount</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="transaction_reference">Transaction Reference</string>
+    <string name="date_time">Date/Time</string>
+    
+    <!-- Expenses Fields -->
+    <string name="amount">Amount</string>
+    <string name="description">Description</string>
+    
+    <!-- Common Actions -->
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="add">Add</string>
+    <string name="ok">OK</string>
+    <string name="error">Error</string>
+    <string name="success">Success</string>
+    <string name="loading">Loading...</string>
+</resources>
